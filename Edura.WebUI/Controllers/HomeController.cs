@@ -20,7 +20,7 @@ namespace Edura.WebUI.Controllers
         public IActionResult Index()
         {
             //return View(_repository.GetAll()); //repository üzerinden yani IProductRepository üzerinden tüm ürünleri döndürme
-            return View(_uow.Products.GetAll()); //unit of work üzerinden tüm product'ları döndürme. unit of work sayesinde her class için ayrı bir dbcontext oluşturmak yerine tüm class'lar tek bir dbContext üzerinden çalıştırılıyor.
+            return View(_uow.Products.GetAll().Where(i=>i.IsApproved && i.IsHome).ToList()); //unit of work üzerinden tüm product'ları döndürme. unit of work sayesinde her class için ayrı bir dbcontext oluşturmak yerine tüm class'lar tek bir dbContext üzerinden çalıştırılıyor.
         }
 
         public IActionResult Details(int id)

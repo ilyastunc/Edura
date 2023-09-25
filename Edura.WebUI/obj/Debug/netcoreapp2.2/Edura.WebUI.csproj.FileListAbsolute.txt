@@ -26,3 +26,5 @@
 /Users/tunc/Documents/C#/Edura/Edura.WebUI/obj/Debug/netcoreapp2.2/Edura.WebUI.pdb
 /Users/tunc/Documents/C#/Edura/Edura.WebUI/obj/Debug/netcoreapp2.2/Edura.WebUI.csproj.CopyComplete
 /Users/tunc/Documents/C#/Edura/Edura.WebUI/obj/Debug/netcoreapp2.2/Razor/Views/Category/Index.g.cshtml.cs
+/Users/tunc/Documents/C#/Edura/Edura.WebUI/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Components/CategoryMenu/Default.g.cshtml.cs
+/Users/tunc/Documents/C#/Edura/Edura.WebUI/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Components/FeaturedProducts/Default.g.cshtml.cs

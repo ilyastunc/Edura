@@ -18,8 +18,13 @@ using Edura.WebUI.Entity;
 
 #line default
 #line hidden
+#line 2 "/Users/tunc/Documents/C#/Edura/Edura.WebUI/Views/_ViewImports.cshtml"
+using Edura.WebUI.Models;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c6841f81d98574789cad4ade00d95488c1f14621", @"/Views/Category/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"410f6e854a87d1fdae6ea70603cd28d940c1dacc", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6e8afddfe3ccab2dfef36319758d8facf6dda694", @"/Views/_ViewImports.cshtml")]
     public class Views_Category_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Category>
     {
         #pragma warning disable 1998

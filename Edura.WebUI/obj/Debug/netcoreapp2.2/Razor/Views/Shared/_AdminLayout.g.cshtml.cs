@@ -18,8 +18,13 @@ using Edura.WebUI.Entity;
 
 #line default
 #line hidden
+#line 2 "/Users/tunc/Documents/C#/Edura/Edura.WebUI/Views/_ViewImports.cshtml"
+using Edura.WebUI.Models;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e78e9ac6cbb96623927c56fcf9745a7e24d622c3", @"/Views/Shared/_AdminLayout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"410f6e854a87d1fdae6ea70603cd28d940c1dacc", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6e8afddfe3ccab2dfef36319758d8facf6dda694", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__AdminLayout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -55,7 +60,7 @@ using Edura.WebUI.Entity;
             WriteLiteral("\n<!DOCTYPE html>\n<html>\n    ");
             EndContext();
             BeginContext(52, 114, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e78e9ac6cbb96623927c56fcf9745a7e24d622c33329", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e78e9ac6cbb96623927c56fcf9745a7e24d622c33462", async() => {
                 BeginContext(58, 101, true);
                 WriteLiteral("\n        <meta name=\"viewport\" content=\"width=device-width\">\n        <title>_AdminLayout</title>\n    ");
                 EndContext();
@@ -75,7 +80,7 @@ using Edura.WebUI.Entity;
             WriteLiteral("\n    ");
             EndContext();
             BeginContext(171, 27, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e78e9ac6cbb96623927c56fcf9745a7e24d622c34596", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e78e9ac6cbb96623927c56fcf9745a7e24d622c34729", async() => {
                 BeginContext(177, 14, true);
                 WriteLiteral("\n        \n    ");
                 EndContext();
